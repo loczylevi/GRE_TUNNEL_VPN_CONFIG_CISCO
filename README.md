@@ -17,3 +17,4 @@ router eigrp 1
  ex
 
 ```
+<img src="noice.gif" width="400">
