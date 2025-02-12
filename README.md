@@ -18,3 +18,5 @@ router eigrp 1
 
 ```
 <img src="noice.gif" width="400">
+__Ennyi?__
+- Ja ennyi
