@@ -1,1 +1,19 @@
 # GRE_TUNNEL_VPN_CONFIG_CISCO
+
+```bash
+en
+conf 
+interface Tunnel4
+ ip address 192.168.4.14 255.255.255.252
+ tunnel source Serial0/3/0
+ tunnel destination 172.16.222.14
+ex
+
+
+ip route 106.159.56.0 255.255.255.0 192.168.4.13
+
+router eigrp 1
+ network 192.168.4.12 0.0.0.3
+ ex
+
+```
